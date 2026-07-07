@@ -54,7 +54,8 @@
 	};
 
 	combos {
-		// both left thumb keys
+		compatible = "zmk,combos";
+    // both left thumb keys
 		combo_settings {
 			timeout-ms = <200>;
 			key-positions = <30 31>;
