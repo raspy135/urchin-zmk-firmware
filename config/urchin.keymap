@@ -40,7 +40,7 @@
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
-    mt_b : mod_tap_balanced {
+    mt_b: mod_tap_balanced {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
