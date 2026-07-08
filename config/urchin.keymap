@@ -40,7 +40,11 @@
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
+    &mt {
+      flavor = "balanced";
+    };
 	};
+  
 
 	macros {
 		// sometimes my device thinks a modifier is being held down
